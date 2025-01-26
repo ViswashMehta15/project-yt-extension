@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>API Settings</title>
+  <style>
+    body {
+      width: 350px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 1.2em;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #34a853;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2a7b3b;
+    }
+  </style>
+</head>
+<body>
+  <h1>OpenAI API Settings</h1>
+  <input type="password" id="apiKey" placeholder="Enter your OpenAI API key">
+  <button id="saveKey">Save API Key</button>
+  <p>Get your API key from <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a></p>
+  <script src="options.js"></script>
+</body>
+</html>
